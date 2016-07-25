@@ -2,7 +2,7 @@
 
 <b>Notes on R script</b>  
 <ol>
-<li>The R script in this assignment were written on 64bit R v 3.1.1.</li>  
+<li>The R script in this assignment were written on 64 bit R v 3.1.1.</li>  
 <li>Shorthands T and F are used in lieu of TRUE and FALSE.</li>  
 <li>Loading the data: Considering that we only need data for a 2 day period from 1-Feb-2007 to 2-Feb-2007 from the given data of 4 years, data is loaded into R in three steps:</li>
 <ol>
