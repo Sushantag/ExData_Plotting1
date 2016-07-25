@@ -1,5 +1,16 @@
 ## Description of the Data and Solution of the Assignment
 
+<b>Notes on R script</b>  
+1) The R script in this assignment were written on 64bit R v 3.1.1.  
+2) Shorthands T and F are used in lieu of TRUE and FALSE.  
+3) Loading the data:    
+Considering that we only need data for a 2 day period from 1-Feb-2007 to 2-Feb-2007 from the given data of 4 years, data is loaded into R in three steps:  
+a) Step 1- Just first two lines are loaded to extract the header in one data frame (header).    
+b) Step 2- The lines relevant to 1-Feb-2007 to 2-Feb-2007 are loaded in another data frame (hpc). The relevant lines was determined by loading the text file in Notepad++.    
+c) Step 3- headers of data frame in step 1 (header) is assigned to header in data from from step 2 (hpc).   
+
+<b>Notes on the data used for this Assignment</b>
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
@@ -33,12 +44,5 @@ web site</a>:
 <li><b>Sub_metering_3</b>: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.</li>
 </ol>
 
-<b>Notes on R script</b>  
-1) The R script in this assignment were written on 64bit R v 3.1.1.  
-2) Shorthands T and F are used in lieu of TRUE and FALSE.  
-3) Loading the data:    
-Considering that we only need data for a 2 day period from 1-Feb-2007 to 2-Feb-2007 from the given data of 4 years, data is loaded into R in three steps:  
-a) Step 1- Just first two lines are loaded to extract the header in one data frame (header).    
-b) Step 2- The lines relevant to 1-Feb-2007 to 2-Feb-2007 are loaded in another data frame (hpc). The relevant lines was determined by loading the text file in Notepad++.    
-c) Step 3- headers of data frame in step 1 (header) is assigned to header in data from from step 2 (hpc).   
+
 
